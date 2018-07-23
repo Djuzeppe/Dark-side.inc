@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
     <link rel="stylesheet" type="text/css">
     <style>
@@ -17,23 +18,29 @@
 }
 /*nav bar*/
  body {
-    background-color:black;
+    /*background-color:black;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 #background1{
-  background:url(https://wallpaperscraft.com/image/lamp_black_glass_114410_1366x768.jpg) no-repeat center center fixed; ;
+  background:url(background/lamp-background.jpg) no-repeat center center fixed;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  min-height: 500px;
-  font-family: 'Underdog', cursive; !!!!
+  min-height: 502px;
 }
 #background2{
-    background:url(http://avante.biz/wp-content/uploads/Os-x-mavericks-wallpaper/Os-x-mavericks-wallpaper-039.jpg) no-repeat;
+    background:url(background/blur-background.jpg) fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  min-height: 502px;
+  font-family: 'Underdog', cursive;
 }
 
 ul {
@@ -64,8 +71,9 @@ li a:hover {
 
  /*fa-icon*/
  .css-adaptive{
-    height: auto;
-    width: 70%;
+  height: 100%;
+  width: 100%;
+  min-height: 502px;
  }
  .fa-fakebook {
     color: #3b5998;
@@ -99,7 +107,7 @@ header {
 <center>
 <header>
     <div>
-        <img class="css-adaptive" style="padding-top: 100px " align="middle" src="https://imagizer.imageshack.com/v2/546x257q90/924/wk4Wrp.png" alt="Dark Side">
+        <img class="css-adaptive" style="padding-top: 100px;  height:1366px; width: 768px;" align="middle" src="background/logo.png" alt="Dark Side">
     </div>
 </header>
 </center>
@@ -112,7 +120,7 @@ header {
             <h1 class="background-adaptive1" style="color:white;">Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум</h1>
         </div>
 
-        <div>
+        <div id="background2">
             <h3 id="about" style="color: #8A0707; font-size: 80px; padding-top: 50px;">Наши проекты</h3> 
             <h1 class="background-adaptive1" style="color:white;">Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум Плюмбум</h1>
         </div>
