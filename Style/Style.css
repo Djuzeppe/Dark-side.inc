@@ -12,8 +12,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#background1{
-  background:url(background/lamp-background.jpg);
+.background1{
+  background:url(/background/lamp-background.jpg);
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -76,7 +76,7 @@ background: fixed repeat-y;
 
 /*margin*/
 #example .new { opacity: 0; }
-#example { padding:100px; width:350px; display:none; }
+#example { }
 #example .div_opacity {
   -webkit-transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
